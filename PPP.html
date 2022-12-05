@@ -8,9 +8,9 @@
         <link rel="stylesheet" href="PPP.css">
         <script type="text/javascript" src="PPP.js"></script>
     </head>
-
+  
     <body>
-
+      <!--====STICKY HEADER====-->
        <header class="fixedheader">
         <div class="header-left">
 
@@ -18,98 +18,144 @@
         </div>
 
         <div class="header-right">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li> 
+            <ul class="header-links">
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li> 
             </ul>
-
+        
             <div class="social-media-links">
-                <a href="https://github.com/Mvramasa" title="Github profile" rel="stylesheet" target="_blank"> <img src="/Personal-Portfolio-Page/Images/Github icon.png"> </a>
+                <a class="social-media-icona" href="https://github.com/Mvramasa" title="Github profile" rel="stylesheet" target="_blank"> <img src="Images/Github-icon"> </a>
 
-                <a href="https://twitter.com/home" title="Twitter profile" rel="stylesheet" target="_blank"> <img src="/Personal-Portfolio-Page/Images/Twitter icon.png icon.png"></a>
+                <a  class="social-media-iconb" href="https://twitter.com/home" title="Twitter profile" rel="stylesheet" target="_blank"> <img src="Images/Twitter icon.png"></a>
             </div>
 
         </div>
 
        </header>
+       <!--====ABOUT SECTION====-->
+    <main>
+        <div id="flex-bio">
+            <div class="bio-1" style="font-size: 32px;">
+                <H1>Richard Kelly</H1>
+    
+             <h3 style="font-size: 30px; margin-top: -24px;">
+                UI/UX Web Developer
+             </H3>
+    
+    
+            </div>
+            
+           
+    
+           <div class="bio-2">
+             <p>I'm Richard. I am a front-end web developer specialising in UI/UX based in London. </p>
+    
+             <p> I build occasionally convenient applications in my spare time, and also dabble in digital music production</p>
+           </div>
+    
+          </div>
+             
+          
+           
+        </div>
+           <!--====PROJECT SECTION====-->
+           <div id="projects">
+            <div class="project-borders">
+                <article class="ProjectA">
+                    <a class="PPP" href="https://github.com/Mvramasa/Personal-Portfolio-Page" target="_blank">
+                     <p class="P-description">HTML/CSS/JS</p>
+                      <h2 class="Project title" style="font-size: 28px;">
+                        Personal Portfolio
+                      </h2>
+                        <h3 class="H3-description" style="font-size: 22px;">
+                            A virtual resume and compilation of all projects to date.
+                        </h3>
+        
+                    </a>
+                 </article>
+        
+                 <article class="ProjectA">
+                    <a class="TDL" href="https://github.com/Mvramasa/Personal-Portfolio-Page" target="_blank">
+                      <p class="P-description">HTML/CSS/JS</p>
+                       <h2 class="Project title" style="font-size: 28px;">
+                        To Do List App
+                      </h2>
+                       
+                        <h3 class="H3-description" style="font-size: 22px;">
+                            A to do list app that streamlines your tasks for the day. Does what it says on the tin.
+                        </h3>
+        
+                    </a>
+                 </article>
+    
+            </div>
+           
+           </div>
+           <!--====CONTACT/ENQUIRY FORM====-->
+    
+           <div id="contact">
+            <div class="two-column-div">
+               
+        
+                <div class="contact-page-left">
+                    <h4 class=>CONTACT</h4>
+        
+                    <h1 class=>Need to reach out?</h1>
+        
+                    <p class=>Get your creative juices flowing and tell me your ideas to develop your dream application or webpage.</p>
+        
+                    <a class="email-link" href="mailto:RichardKelly1612@hotmai.com" >Reach out to me!</a>
+         
+                </div> 
 
-       <div class="bio-1">
-         <H1>Richard Kelly</H1>
+                <form action="contact-page-right" class="contact-page-right";>
+        
+                    <label for="name" class="labelclass">NAME</label>
+                    <input type="text" id="formname" name="formname" placeholder="Name">
+        
+                    <label for="name" class="emailclass">EMAIL</label>
+                    <label for="email" ></label>
+                    <input type="text" id="formemail" name="formemail" placeholder="Email">
+        
+                    <label for="name" class="messageclass">MESSAGE</label>
+                    <label for="message" ></label>
+                    <input type="text" id="formmessage" name="formmessage" placeholder="Message">
+        
+                    <button class="button-52" role="button">
 
-         <H2>UI/UX Web Developer</H2>
-       </div>
-
-       <div class="bio-2">
-         <H3>About</H3>
-         <p>Hi, my name is Richard. I am a front-end web developer specialising in UI/UX based in London. I build occasionally convenient applications in my spare time, and also dabble in digital music production</p>
-       </div>
-
-       <div class="img-bio-links">
-        <div class="pfp"></div>
-       
-       </div>
-
-       <div id="projects">
-        <H4>Projects</H4>
-         <article class>
-            <a class="Project-1" href="https://github.com/Mvramasa/Personal-Portfolio-Page">
-                <p class="P-description">HTML/CSS/JS</p>
-                <h3 class="H3-description">A virtual resume and compilation of all projects to date.</h3>
-
-            </a>
-         </article>
-
-         <article class>
-            <a class="Project-2" href="https://github.com/Mvramasa/Personal-Portfolio-Page">
-                <p class="P-description">HTML/CSS/JS</p>
-                <h3 class="H3-description">A to do list app that streamlines your tasks for the day. Does what it says on the tin.</h3>
-
-            </a>
-         </article>
+                        Hit me up
+                    </button>
         
         
-       </div>
+                </form>
+               
 
-       <div class="contact">
-        <form action="action_page.php">
-            <H2>Contact me</H2>
+            </div>
+           
+    
+        </id>
+            
+    
+           <!--====FOOTER SECTION====-->
+           
+           <div class="footer">
+            <ul class="footer-links">
+                <li class="footer-li"><a href="#">ABOUT</a></li>
+                <li class="footer-li"><a href="#">PROJECTS</a></li>
+                <li class="footer-li"><a href="#">CONTACT</a></li> 
+            </ul>
+            
+           </div>
+           
+    </div>
+    </div>
 
-            <p>I'm interested in freelance opportunities  especially ambitious and large projects as well as junior/ apprenticeship roles within the developer sphere. If you have any other requests or questions, do not hesitiate to use the form below!</p>
-            <label for="name"></label>
-            <input type="text" id="formname" name="formname" placeholder="Name">
-
-            <label for="email"></label>
-            <input type="text" id="formemail" name="formemail" placeholder="Email">
-
-            <label for="subject"></label>
-            <input type="text" id="formsubject" name="formsubject" placeholder="Subject">
-
-            <label for="message"></label>
-            <input type="text" id="formmessage" name="formmessage" placeholder="Message">
-
-            <input type="submit" value="Send Message!">
-
-
-        </form>
-
-       </div>
-       
-       <div class="footer"> <ul>
-        <li> 
-          <a class="flex-items-center" href="https://github.com/Mvramasa"></a>
-
-        </li>
-
-        <li>
-            <a class="flex-items-center" href="https://github.com/Mvramasa"></a>
-
-        </li>
-    </ul>
-</div>
+    </main>
+   
 
 
-    </body>
+</body>
 
 
 

@@ -1,0 +1,210 @@
+
+.body{
+    
+
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.fixedheader {
+    display : flex;
+    justify-content: space-between;
+    padding: 0px 8px 0px 0px;
+    margin: auto 0px;
+    margin-top: -8px;
+    min-width: 100%;
+    background-color:grey;
+    height: 55px;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 24px;
+    padding: 4px 50px 4px 50px;
+    font: Roboto, sans-serif;
+    height: 24px;
+    font-family: Lato;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;  
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 14px;
+
+}
+
+li {
+    color: white;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-media-links {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.social-media-icona {
+    display: flex;
+    height: 38px;
+    width: 18px;
+    padding: 8px 16px;
+    color: white;
+}
+
+.social-media-iconb {
+    display: flex;
+    height: 38px;
+    width: 18px;
+    padding: 8px 40px 8px 16px;
+
+}
+
+#flex-bio {
+    box-sizing: border-box;
+    background-color: rgb(32,32,32);
+    padding: 0px 0px 8px 0px;
+    margin: -44px 0 -20px 0px;
+    font-family: Lato;
+    height: 800px;
+
+}
+
+.bio-1, .bio-2 {
+   justify-content: center;
+}
+
+.bio-1 {
+    color:white;
+    padding: 0px 0px 0px 8px;
+    text-align: center;
+    margin-left: 200px; 
+    width: 400px; 
+}
+
+.bio-2 {
+    color:white;
+    font-size: 18px;
+    padding: 4px 0px 8px 0px;
+    margin-top: -24px;
+    width: 410px;
+
+}
+
+
+
+#projects {
+    box-sizing: content-box;
+    background-color: rgb(32, 32, 34);
+    border:;
+    padding: 20px;
+    max-width:70%;
+    font-family: Lato;
+}
+
+.project-borders {
+    box-sizing:border-box;
+    display: block;
+    margin: 0px -8px 0px -8px;
+    padding: 0px auto;
+    text-size-adjust: 100%;
+    background-color: rgb(105, 105, 105);
+    
+}
+
+.ProjectA {
+    border: 1px solid rgb(32, 32, 34);
+    outline: 5px solid rgb(32,32,32);
+    box-sizing: content-box;
+    cursor: pointer;
+    margin: 12px 8px 12x 12px;
+    padding: 35px;
+    
+}
+
+
+#contact {
+    font-family: Lato;
+    background-color: rgb(32,32,32);
+    padding: 10px;
+    max-height: 700px;
+    width: 100%;
+   
+}
+
+.contact-page-right, .contact-page-left {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    color: white;
+}
+
+#formname, #formemail,#formsubject, #formmessage {
+    font-size: 14px;
+     width: 90%; 
+     margin: 18px;
+     padding: 12px 20px;
+     box-sizing: border-box;
+     line-height: 20px;
+     
+}
+
+#formmessage {
+    padding: 12px 20px 100px 20px;
+}
+
+.labelclass, .emailclass, .messageclass {
+    text-align: start;
+    display: block;
+    box-sizing: border-box;
+    padding: 12px 35px 0px ;
+    margin-bottom: -10px;
+    
+
+}
+.contact-message {
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+
+.contact-page-right {
+    text-align: center;
+   
+    
+
+}
+
+.contact-page-left {
+    vertical-align: top;
+    padding-top: 100px;
+    
+    
+}
+.button-52 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    outline: 0;
+    border: 1px solid black;
+    padding: 13px 20px 13px;
+    position: relative;
+}
+
