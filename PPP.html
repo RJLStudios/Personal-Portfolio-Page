@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Personal Portfolio</title>
-        <link rel="stylesheet" href="CSSFIX.css">
+        <link rel="stylesheet" href="PPP.css">
         <script type="text/javascript" src="PPP.js"></script>
         <script src="https://kit.fontawesome.com/2fdc66d39d.js" crossorigin="anonymous"></script>
     </head>
@@ -13,13 +13,32 @@
 <body>
 
 <header>
-  <header-column>
-    
-  <header-column>
+  
+        <nav class="container">
+          <div class="nav-bar">
+
+            <div class="logo">RJL<b> STUDIOS</b></div>
+            <div class="icon-bar">
+             <a href="https://github.com/Mvramasa"  target="_blank"> <img class="git-icon" src="/home/mvra/Desktop/repos/Personal-Portfolio-Page/Images/github-icon" style="height:38px;width:38px;" ></a>
+
+             <a href="https://twitter.com/" target="_blank"> <img class="twitter-icon" src="/home/mvra/Desktop/repos/Personal-Portfolio-Page/Images/twitter-icon.png" style="height:38px;width:38px"></a>
+  
+            </div>
+       
+
+            <ul class="nav-menu">
+                <li class="nav-link">ABOUT</li>
+                <li class="nav-link">PROJECTS</li>
+                <li class="nav-link">CONTACT</li>
+            </ul>
+
+          </div>  
+        </nav>
+  
 </header>
 
 <main>
-   <section>
+   <section class="about-section">
     <inner-column>
         <graphic-dip>
             <about-text-content>
@@ -39,7 +58,7 @@
     </inner-column>
    </section>
 
-   <section>
+   <section class="project-section">
     <inner-column>
         <project-borders>
             <article class="ProjectA">
@@ -72,7 +91,7 @@
     </inner-column>
     </section>
 
-    <section>
+    <section class="contact-section">
    <inner-column>
         <id class="contact">
             <div class="contact-page-left">
@@ -85,43 +104,42 @@
                 <a class="email-link" href="mailto:RichardKelly1612@hotmai.com" style="text-decoration:none; color:white" >Reach out to me!</a>
      
             </div> 
-
+       
             <form action="contact-page-right" class="contact-page-right";>
-              <div class="name-input">
-                <i class="icon fa-regular fa-user fa-lg"></i>
-                <label for="name" class="labelclass">NAME</label>
-                <input type="text" id="formname" name="formname" placeholder="">
-             </div>
-                
-             <div class="email-input">
-                <i class="icon fa-regular fa-envelope fa-lg"></i>
-                <label for="name" class="emailclass">EMAIL</label>
-                <label for="email" ></label>
-                <input type="text" id="formemail" name="formemail" placeholder="">
-             </div>
-                
-             <div class="message-input">
-                <i class="icon fa-regular fa-paper-plane fa-lg"></i>
-                <label for="name" class="messageclass">MESSAGE</label>
-                <label for="message" ></label>
-                <input type="text" id="formmessage" name="formmessage" placeholder="">
-             </div>
-                
-    
-                <button class="button-52" role="button">
-
-                    Hit me up
-                </button>
-           </form>
+                <div class="name-input">
+                  <!--<i class="icon fa-regular fa-user fa-lg"></i-->
+                  <label for="name" class="labelclass">NAME</label>
+                  <input type="text" id="formname" name="formname" placeholder="">
+               </div>
+                  
+               <div class="email-input">
+                  <!--<i class="icon fa-regular fa-envelope fa-lg"></i>-->
+                  <label for="name" class="emailclass">EMAIL</label>
+                  <label for="email" ></label>
+                  <input type="text" id="formemail" name="formemail" placeholder="">
+               </div>
+                  
+               <div class="message-input">
+                  <!--<i class="icon fa-regular fa-paper-plane fa-lg"></i>-->
+                  <label for="name" class="messageclass">MESSAGE</label>
+                  <label for="message" ></label>
+                  <input type="text" id="formmessage" name="formmessage" placeholder="">
+               </div>
+                  
+      
+                  <button class="button-52" role="button">
+  
+                      Hit me up
+                  </button>
+             </form>      
            
-            
         </id>
            
         
    </inner-column>
     </section>
 
- <section>
+ <section class="source-code-section">
     <inner-column>
     
 
@@ -133,9 +151,24 @@
 </main>
 
 <footer>
-    <inner-column>
-        <h2>Footer</h2>
-      </inner-column>
+    <footer-column>
+        <div class="footer-logo" style="font-size:32px;">RJL STUDIOS</div>
+
+        
+        <ul class="footer-nav-menu">
+            <li class="nav-link">ABOUT</li>
+            <li class="nav-link">PROJECTS</li>
+            <li class="nav-link">CONTACT</li>
+        </ul>
+
+
+        <div class="header-icon-bar">
+            <a href="https://github.com/Mvramasa"  target="_blank"> <img class="git-icon" src="/home/mvra/Desktop/repos/Personal-Portfolio-Page/Images/github-icon" style="height:38px;width:38px;" ></a>
+
+            <a href="https://twitter.com/" target="_blank"> <img class="twitter-icon" src="/home/mvra/Desktop/repos/Personal-Portfolio-Page/Images/twitter-icon.png" style="height:38px;width:38px"></a>
+ 
+           </div>
+      </footer-column>
 </footer>
 
 </body>
